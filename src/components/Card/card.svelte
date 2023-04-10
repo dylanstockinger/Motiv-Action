@@ -94,7 +94,7 @@ import TiHeart from 'svelte-icons/ti/TiHeart.svelte'
    }
 
    .call-to-action button:hover{
-    background-color: #b7b7b7;
+    background-color: #dadada;
 
    }
   
