@@ -17,7 +17,7 @@
 
     <!-- The Nav Menu -->
     <nav class="nav">
-      <a class="nav-item" href="">Home</a>
+      <a class="nav-item" href="">Homep</a>
       <a class="nav-item" href="">Profile</a>
       <a class="nav-item" href="">Citations</a>
       <a class="nav-item" href="">Testimonials</a>
