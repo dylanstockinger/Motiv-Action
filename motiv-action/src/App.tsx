@@ -3,6 +3,7 @@ import Card from "@/components/Card/Card";
 import NavBar from "@/components/Navbar/NavBar";
 import { getRandomFamousQuotes } from "./api/famousQuotes";
 import { Actions, useFamousQuote } from "./store/famousQuotes";
+
 function App() {
   const [famousQuote, dispatchFamousQuote] = useFamousQuote();
 
@@ -23,7 +24,7 @@ function App() {
   }, [dispatchFamousQuote]);
 
   return (
-    <div className="app">
+    <div className="app ">
       <NavBar />
       {famousQuote && <Card famousQuote={famousQuote} />}
     </div>

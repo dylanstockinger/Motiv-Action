@@ -1,5 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: "Outfit", sans-serif;
   background-color: #fff;
+  /* @apply text-black; */
 }
