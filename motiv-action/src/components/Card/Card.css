@@ -12,20 +12,6 @@ section {
   box-shadow: rgb(0, 0, 0) 0px 5px 15px;
 }
 
-.icon {
-  position: absolute;
-  top: 160px;
-  right: 440px;
-  width: 55px;
-  color: #056348;
-  cursor: pointer;
-  margin: 10px;
-}
-
-.icon:hover {
-  color: #117d5e;
-}
-
 p {
   font-size: 2rem;
   text-align: center;
