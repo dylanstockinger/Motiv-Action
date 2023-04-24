@@ -4,8 +4,9 @@
   height: 100%;
   display: flex;
   justify-content: space-evenly;
-  margin: 10px;
+  margin: 20px;
 }
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -16,14 +17,18 @@
   text-decoration: none;
   font-size: 17px;
 }
+
 /* Change the color of links on hover */
 .topnav a:hover {
-  text-decoration: underline 1.5px;
-  text-decoration-style: wavy;
-  text-decoration-color: #affff6;
+  background-color: #715a00;
 }
+
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #00402e;
-  color: #fff;
+  background-color: #f3c40b;
+  color: #000000;
+}
+
+img {
+  width: 3rem;
 }
