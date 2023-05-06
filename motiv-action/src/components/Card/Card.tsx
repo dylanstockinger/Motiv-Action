@@ -1,17 +1,21 @@
-import "./Card.css";
-
 type CardProps = {
   famousQuote: FamousQuote;
 };
 
 const Card: React.FC<CardProps> = ({ famousQuote }) => {
   return (
-    <section className="flex align-center justify-center	m-auto text-black height-{240px} width-{800px} rounded-lg	bg-white mt-24	shadow-2xl	 ">
-      <div className="card-details">
-        <p className="text-3xl	text-center	">{famousQuote.quote}</p>
-        <small className="text-center">{famousQuote.author}</small>
+    <div className=" max-w-4xl h-44 py-8 px-8 bg-white shadow-lg rounded-lg my-20">
+      <div className="flex flex-col justify-center items-center">
+        <h2 className="text-gray-800 text-4xl font-normal text-center">
+          {famousQuote.quote}
+        </h2>
       </div>
-    </section>
+      <div className="flex justify-end mt-4">
+        <p className="text-xl font-medium text-indigo-500">
+          {famousQuote.author}
+        </p>
+      </div>
+    </div>
   );
 };
 
