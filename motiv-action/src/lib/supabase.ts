@@ -1,6 +1,7 @@
 import { Database } from "@/types/supabase";
 import { createClient } from "../../node_modules/@supabase/supabase-js/dist/module/index";
 import SupabaseClient from "../../node_modules/@supabase/supabase-js/dist/module/SupabaseClient";
+import { storageConfig } from "./storage";
 
 class DBConnection {
   private supabase: SupabaseClient<Database>;
@@ -12,6 +13,7 @@ class DBConnection {
         db: {
           schema: "public",
         },
+        ...storageConfig,
       }
     );
   }
@@ -21,4 +23,4 @@ class DBConnection {
   }
 }
 
-export const supabase = Object.freeze(new DBConnection().db);
+export const supabase = new DBConnection().db;

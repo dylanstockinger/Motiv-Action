@@ -5,7 +5,7 @@ type Error = {
   message: string;
 };
 
-export default function Error() {
+export default function Error(): JSX.Element {
   const error = useRouteError();
   const err = error as Error;
 

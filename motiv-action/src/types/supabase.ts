@@ -88,7 +88,6 @@ export interface Database {
           firstName: string
           id: number
           lastName: string
-          password: string
         }
         Insert: {
           created_at?: string | null
@@ -96,7 +95,6 @@ export interface Database {
           firstName: string
           id?: number
           lastName: string
-          password: string
         }
         Update: {
           created_at?: string | null
@@ -104,7 +102,6 @@ export interface Database {
           firstName?: string
           id?: number
           lastName?: string
-          password?: string
         }
       }
       voicenotes: {

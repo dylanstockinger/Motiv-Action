@@ -6,12 +6,17 @@ import { VoiceNotes } from "@/pages/VoiceNotes";
 import SignIn from "@/pages/SignIn";
 import SignUp from "@/pages/SignUp";
 import Profile from "@/pages/user/Profile";
+import Error from "@/pages/Error";
 
 const routesMap: Router[] = [
   {
     index: true,
     Element: Home,
     path: Routes.Home,
+  },
+  {
+    Element: Error,
+    path: Routes.NotFound,
   },
   {
     Element: SignIn,

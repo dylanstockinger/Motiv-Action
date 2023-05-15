@@ -8,9 +8,10 @@ export default interface Router {
 }
 
 export enum Routes {
+  NotFound = "*",
   Home = "/",
   Quotes = "/quotes",
-  Profile = "/user/profile",
+  Profile = "/profile",
   SignIn = "/sign-in",
   SignUp = "/sign-up",
   Testimonials = "/testimonials",
